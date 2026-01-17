@@ -3,7 +3,7 @@ name: TAKATALK Frontend CI
 on:
   push:
     branches: ["master", "develop", "feat/**"]
-  pull-request:
+  pull_request:
     branches: ["master", "develop"]
 
 jobs:
